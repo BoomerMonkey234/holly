@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Eat Easy - Login</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/js-cookie/2.2.1/js.cookie.js"></script>
+    <script src="/client/js/users.js"></script>
+    <script src="/client/js/cookies.js"></script>
+    <link rel="stylesheet" type="text/css" href="/client/css/login.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+    </style>
+</head>
+<body>
+<div class="container">
+
+    <div class="logo">eat easy</div>
+    <div class="login-form">
+        <form class="login-form" id="LoginForm">
+            <p>Email</p>
+            <input type="text" name="Email" id="Email" placeholder="Email">
+            <p>Password</p>
+            <input type="Password" name="Password" id="Password" placeholder="Password">
+
+        </form>
+        <button class="button" onclick='UsersLogin();'>LOGIN</button>  <!--UsersLogin()in users.js-->
+            <!--<button class="button" onclick='logout();'>LOGOUT</button>-->
+
+
+    </div>
+
+</div>
+
+
+</body>
+</html>
