@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Eat Easy - Sign Up</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/js-cookie/2.2.1/js.cookie.js"></script>
+    <script src="/client/js/signup.js"></script>
+    <link rel="stylesheet" type="text/css" href="/client/css/login.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+    </style>
+</head>
+<body>
+
+<div class="container">
+
+    <div class="logo">eat easy</div>
+    <div class="signup-form">
+        <form class="signup-form" id="SignUpForm">
+            <!--This form contains the different interactive elements of the login page-->
+            <p>Email</p>
+            <input type="text" name="Email" id="Email" placeholder="Email">
+            <p>Name</p>
+            <input type="text" name="Name" id="Name" placeholder="Name">
+            <p>Password</p>
+            <input type="Password" name="Password" id="Password" placeholder="Password">
+
+        </form>
+        <button class="button" onclick='AddUser();'>SIGNUP</button>  <!--UsersLogin()in login.js-->
+        <a href="http://localhost:8081/client/login.html"><em>Already have an account? Click to login</em></a>
+    </div>
+</div>
+
+</body>
+</html>

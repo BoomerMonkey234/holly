@@ -1,0 +1,92 @@
+*{                                         /* Applies to whole page */
+    margin: 0;
+    padding: 0;
+    user-select: none;
+}
+
+body{
+    background: #b3ffda;
+    font-family: 'Barlow', sans-serif;
+}
+
+.container{                                /* This creates the box*/
+    width: 450px;
+    margin:70px auto;
+}
+
+.logo {                                    /* This code is only styling my logo -"eat easy"*/
+    margin-top: 10px;
+    font-family:'Pacifico', cursive;       /* I used Google fonts - link is in the HTML */
+    text-decoration:none;
+    font-size:70px;
+    width:100%;
+    background: #fff;
+    height:60px;
+    float:left;
+    text-align:center;
+    padding-top: 10px;
+    cursor:pointer;
+    line-height: 60px;
+    color: purple;
+}
+
+.login-form {                      /*This includes everything inside the form */
+    background: #fff;
+    box-sizing: border-box;
+    padding: 20px;
+    margin-bottom: 0px;
+    clear: both;
+
+}
+
+.signup-form {                      /*This includes everything inside the form */
+    background: #fff;
+    box-sizing: border-box;
+    padding: 20px;
+    margin-bottom: 0px;
+    clear: both;
+
+}
+
+input {                            /* This applies the input boxes */
+    width:100%;
+    box-sizing: border-box;
+    padding: 20px;
+    margin-bottom: 25px;
+    border: 2px solid black;
+    color: #3e3e40;
+    font-size: 14px;
+    outline: none;
+    transition: all 0.5s ease;     /* The colour smoothly changes when clicked on */
+}
+
+input:focus {                      /* When the box is clicked on it turns green */
+    border: 2px solid #00e673;
+}
+
+.button{                           /* This is the login button */
+    width: 90%;
+    margin-left: 20px;
+    background: #00e673;
+    text-align: center;
+    line-height: 60px;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: bold;
+    font-size: 25px;
+    letter-spacing: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+a {
+    margin-left: 20px;
+    color: black;
+    transition: all 0.5s ease;
+    text-decoration: none;
+}
+
+a:hover {
+    color:#00e673;
+}
